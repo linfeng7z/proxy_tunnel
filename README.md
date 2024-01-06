@@ -1,12 +1,6 @@
 
 ProxyPool 爬虫代理IP池
 =======
-[![Build Status](https://travis-ci.org/jhao104/proxy_pool.svg?branch=master)](https://travis-ci.org/jhao104/proxy_pool)
-[![](https://img.shields.io/badge/Powered%20by-@j_hao104-green.svg)](http://www.spiderpy.cn/blog/)
-[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/jhao104/proxy_pool/blob/master/LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/jhao104/proxy_pool.svg)](https://github.com/jhao104/proxy_pool/graphs/contributors)
-[![](https://img.shields.io/badge/language-Python-green.svg)](https://github.com/jhao104/proxy_pool)
-
     ______                        ______             _
     | ___ \_                      | ___ \           | |
     | |_/ / \__ __   __  _ __   _ | |_/ /___   ___  | |
@@ -55,7 +49,7 @@ https://github.com/jhao104/proxy_pool/releases 下载对应zip文件
 ##### 安装依赖:
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ##### 更新配置:
