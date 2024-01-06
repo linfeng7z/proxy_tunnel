@@ -67,7 +67,7 @@ pip install -r requirements.txt
 # 配置API服务
 
 HOST = "0.0.0.0"               # IP
-PORT = 5000                    # 监听端口
+PORT = 5010                    # 监听端口
 
 
 # 配置数据库
