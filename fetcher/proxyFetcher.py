@@ -29,7 +29,7 @@ class ProxyFetcher(object):
     def PayProxyCustom1():  # 命名不和已有重复即可
         # 通过某网站或者某接口或某数据库获取代理
         # 假设你已经拿到了一个代理列表
-        api_url = "https://dps.kdlapi.com/api/getdps/?secret_id=o5pjeq0fxic3oiz8fsvj&num=1&signature=qntlpknkd29pvok316t733itw9nhssr3&pt=2&dedup=1&format=json&sep=1"
+        api_url = "https://dps.kdlapi.com/api/getdps/?secret_id=*******&num=1&signature=**********&pt=2&dedup=1&format=json&sep=1"
         # 获取API接口返回的代理IP
         response = WebRequest().get(api_url).text
         data = json.loads(response)
